@@ -24,4 +24,4 @@ RUN /bin/bash -c '. /.nvm/nvm.sh && \
 RUN npm install -g ember-cli bower phantomjs
 
 #Expose ports
-EXPOSE 22 4200 35729
+EXPOSE 4200 35729
