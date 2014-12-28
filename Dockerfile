@@ -25,3 +25,6 @@ RUN npm install -g ember-cli@0.1.4 bower phantomjs
 
 #Expose ports
 EXPOSE 4200 35729
+
+# Define default command.
+CMD ["bash"]
