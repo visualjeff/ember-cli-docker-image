@@ -13,4 +13,4 @@ To run the container:
 
 > sudo docker run -t -i -p 4200:4200 -p 35729:35729 visualjeff/ember-cli:latest /bin/bash
 
-The image is handy for teaching.  The Windowz folks can use boot2docker to fire up a nice ember-cli development environment.
+This docker image is handy for teaching for poking at the latest and greatest version of ember-cli.
