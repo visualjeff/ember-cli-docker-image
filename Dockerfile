@@ -1,6 +1,6 @@
 # Docker version 1.3.2, build d84a070
 #
-#   To build: sudo docker build --force-rm=true -t visualjeff/ember-cli:0.1.3 .
+#   To build: sudo docker build --force-rm=true -t visualjeff/ember-cli:0.1.X .
 #   To tag: sudo docker tag CONTAINERID visualjeff/ember-cli:latest
 #   To run: sudo docker run -t -i -p 4200:4200 -p 35729:35729 visualjeff/ember-cli:latest /bin/bash
 FROM    ubuntu:14.04
