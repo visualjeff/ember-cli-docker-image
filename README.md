@@ -5,7 +5,7 @@ ember-cli-docker-image
 
 * Ubuntu 14.04
 * Ember-cli v0.1.4
-* Node v0.10.33
+* Node v0.10.35
 * Git
 * Nano - for editing files.
 
