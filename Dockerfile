@@ -1,4 +1,4 @@
-# Docker version 1.3.2, build d84a070
+# Docker version 1.4.x, build d84a070
 #
 #   To build: sudo docker build --force-rm=true -t visualjeff/ember-cli:0.1.X .
 #   To tag: sudo docker tag CONTAINERID visualjeff/ember-cli:latest
@@ -21,7 +21,7 @@ RUN /bin/bash -c '. /.nvm/nvm.sh && \
     nvm alias default v0.10.35'
     
 #Install ember-cli    
-RUN npm install -g ember-cli@0.1.8 bower phantomjs
+RUN npm install -g ember-cli@0.1.9 bower phantomjs
 
 #Expose ports
 EXPOSE 4200 35729
