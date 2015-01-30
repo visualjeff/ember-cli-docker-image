@@ -22,7 +22,7 @@ RUN /bin/bash -c '. /.nvm/nvm.sh && \
     nvm alias default v1.5.0'
     
 #Install ember-cli    
-RUN npm install -g ember-cli@0.2.0 bower
+RUN npm install -g ember-cli@0.2.1 bower
 
 #Expose ports
 EXPOSE 4200 35729

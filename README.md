@@ -4,8 +4,8 @@ ember-cli-docker-image
 ##Ember-cli docker image:
 
 * Debian
-* Ember-cli v0.2.0
-* Node v0.12.0
+* Ember-cli v0.2.1
+* Node iojs v1.5.0
 * Git
 * Nano
 * Vim & Tmux
