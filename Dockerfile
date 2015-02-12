@@ -16,12 +16,12 @@ RUN apt-get install -y nodejs
 RUN git clone https://github.com/creationix/nvm.git /.nvm
 RUN echo ". /.nvm/nvm.sh" >> /etc/bash.bashrc
 RUN /bin/bash -c '. /.nvm/nvm.sh && \
-    nvm install v0.10.35 && \
-    nvm use v0.10.35 && \
-    nvm alias default v0.10.35'
+    nvm install v0.10.36 && \
+    nvm use v0.10.36 && \
+    nvm alias default v0.10.36'
     
 #Install ember-cli    
-RUN npm install -g ember-cli@0.1.11 bower phantomjs
+RUN npm install -g ember-cli@0.1.15 bower phantomjs
 
 #Expose ports
 EXPOSE 4200 35729
