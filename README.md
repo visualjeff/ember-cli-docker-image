@@ -3,11 +3,12 @@ ember-cli-docker-image
 
 ##Ember-cli docker image:
 
-* Ubuntu 14.04
-* Ember-cli v0.1.15
-* Node v0.10.36
+* Debian
+* Ember-cli v0.2.0
+* Node v0.12.0
 * Git
-* Nano - Friendly text editor for editing files.
+* Nano
+* Vim & Tmux
 
 To run the container:
 
