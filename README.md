@@ -5,7 +5,7 @@ ember-cli-docker-image
 
 * Debian
 * Ember-cli v0.2.1
-* Node iojs v1.5.0
+* Node v0.10.36
 * Git
 * Nano
 * Vim & Tmux
