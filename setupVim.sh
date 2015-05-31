@@ -44,7 +44,7 @@ Bundle 'jelera/vim-javascript-syntax'
 filetype plugin indent on
 set number
 syntax enable
-set background=dark
+set background=light
 set t_Co=256
 let g:solarized_termcolors = 256
 colorscheme solarized
