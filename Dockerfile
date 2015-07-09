@@ -16,12 +16,12 @@ RUN apt-get install -y nodejs
 RUN git clone https://github.com/creationix/nvm.git /.nvm
 RUN echo ". /.nvm/nvm.sh" >> /etc/bash.bashrc
 RUN /bin/bash -c '. /.nvm/nvm.sh && \
-    nvm install v2.2.1 && \
-    nvm use v2.2.1 && \
-    nvm alias default v2.2.1'
+    nvm install v2.3.3 && \
+    nvm use v2.3.3 && \
+    nvm alias default v2.3.3'
     
 #Install ember-cli    
-RUN npm install -g ember-cli@0.2.7 bower phantomjs
+RUN npm install -g ember-cli@1.13.0 bower phantomjs
 
 ADD setupVim.sh /root/setupVim.sh
 RUN chmod +x /root/setupVim.sh
