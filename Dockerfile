@@ -21,7 +21,7 @@ RUN /bin/bash -c '. /.nvm/nvm.sh && \
     nvm alias default v2.5.0'
     
 #Install ember-cli    
-RUN npm install -g ember-cli@1.13.6 bower phantomjs
+RUN npm install -g ember-cli@1.13.7 bower phantomjs
 
 ADD setupVim.sh /root/setupVim.sh
 RUN chmod +x /root/setupVim.sh
