@@ -4,8 +4,8 @@ ember-cli-docker-image
 ##Ember-cli docker image:
 
 * Debian 7 (wheezy)
-* Ember-cli v1.13.7, bower & phantomjs
-* Iojs v2.5.0 and NPM  
+* Ember-cli v1.13.8, bower & phantomjs
+* Iojs v3.0.0 and NPM  
 * Git
 * Nano
 * Vim & Tmux
