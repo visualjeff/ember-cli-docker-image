@@ -1,6 +1,6 @@
 # Docker version 1.8.2
 #
-#   To build: sudo docker build --force-rm=true -t visualjeff/ember-cli:1.13.12 .
+#   To build: sudo docker build --force-rm=true -t visualjeff/ember-cli:1.13.15 .
 #   To tag: sudo docker tag CONTAINERID visualjeff/ember-cli:latest
 #   To run: sudo docker run -t -i -p 4200:4200 -p 35729:35729 visualjeff/ember-cli:latest /bin/bash
 FROM    debian:latest
@@ -16,12 +16,12 @@ RUN apt-get install -y nodejs
 RUN git clone https://github.com/creationix/nvm.git /.nvm
 RUN echo ". /.nvm/nvm.sh" >> /etc/bash.bashrc
 RUN /bin/bash -c '. /.nvm/nvm.sh && \
-    nvm install v4.2.2 && \
-    nvm use v4.2.2 && \
-    nvm alias default v4.2.2'
+    nvm install v4.2.6 && \
+    nvm use v4.2.6 && \
+    nvm alias default v4.2.6'
     
 #Install ember-cli    
-RUN npm install -g ember-cli@1.13.12 bower phantomjs
+RUN npm install -g ember-cli@1.13.15 bower phantomjs
 
 ADD setupVim.sh /root/setupVim.sh
 RUN chmod +x /root/setupVim.sh
